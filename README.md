@@ -45,13 +45,13 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+valentineName: "Aqib"                    // Your Valentine's name
+pageTitle: "Will You Be My Valentine? 🫂💗" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['🧸', '🐻']                       // Bear emojis in background
+    hearts: ['💋', '💖', '🫂', '💗', '💓'],  // Heart emojis in background
+    bears: ['💌', '🫂']                       // Bear emojis in background
 }
 
 // Questions and Buttons
@@ -60,12 +60,12 @@ questions: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: "I don't like you, I love you! 💗"  // Hidden message
     },
     second: {
         text: "How much do you love me?",          // Second question
         startText: "This much!",                   // Text before percentage
-        nextBtn: "Next ❤️"                         // Next button text
+        nextBtn: "Next 💗"                         // Next button text
     },
     third: {
         text: "Will you be my Valentine...?",      // Final question
@@ -76,25 +76,25 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "WOOOOW You love me that much?? 🫂😭💗",  // Shows above 1000000%
+    high: "To infinity and beyond! 💋🫂",              // Shows above 1000%
+    normal: "And beyond! 💋"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
     title: "Yay! I'm the luckiest person...",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
-    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+    emojis: "💋🫂💌👀💗😭💖😘"                        // Celebration emojis
 }
 
 // Website Colors
 colors: {
-    backgroundStart: "#ffafbd",      // Background gradient start
-    backgroundEnd: "#ffc3a0",        // Background gradient end
-    buttonBackground: "#ff6b6b",     // Button color
-    buttonHover: "#ff8787",          // Button hover color
-    textColor: "#ff4757"            // Text color
+    backgroundStart: "#3C0008",      // Background gradient start
+    backgroundEnd: "#3C0008",        // Background gradient end
+    buttonBackground: "#000000",     // Button color
+    buttonHover: "#420505",          // Button hover color
+    textColor: "#ffffff"            // Text color
 }
 
 // Animation Settings
@@ -109,10 +109,12 @@ animations: {
 music: {
     enabled: true, // Music feature is enabled
     autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
-    startText: "🎵 Play Music", // Button text to start music
-    stopText: "🔇 Stop Music", // Button text to stop music
-    volume: 0.5 // Volume level (0.0 to 1.0)
+    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Spotify
+https://open.spotify.com
+Ishq Wala Love - song and lyrics by Vishal-Shekhar, Shekhar Ravjiani, Salim Merchant, Neeti Mohan
+    startText: "🫣 Play Music", // Button text to start music
+    stopText: "🫠 Stop Music", // Button text to stop music
+    volume: 2.0 // Volume level (0.0 to 1.0)
 }
 ```
 
